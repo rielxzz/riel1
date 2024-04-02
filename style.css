@@ -1,1 +1,2 @@
-.principal{background-imagem:url:"(img/background.png")height.100uh,}
+.principal{background-imagem:url"(img/background.png)"; height:100vh;}
+.container_botão{background-color:blue;}
