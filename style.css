@@ -1,5 +1,37 @@
-.principal{background-image:url:"(img/background.png)"; height:100vh;}
+:root{
+
+  --branco-principal:white;
+  --cinza-secundario: gray;
+  --botao-azul:blue;
+  --cord-fundo: black;
+}
+
+body{
+
+  background-color: black;
+  color: white;
+}
+
+.principal {
+  background-image: url("img/Background.png");
+  
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
 
 
+.container_botao {
+  background-color: var(--botao-azul);
+  color:white;
+  border-radius: 5px;
+  display: block;
+  border: 2px solid var(--branco-principal);
+  text-decoration: none;
+margin-bottom: 1em;
+}
 
-.container_botão{background-color:blue;}
+
+.container{ height: 100vh;
+           display:grid;
+           border-radius: 5px;
